@@ -1,0 +1,10 @@
+#!/bin/sh
+
+ssh $h1 -t 'ifconfig eth1 0 up'
+ssh $h2 -t 'ifconfig eth1 0 up'
+ssh $h3 -t 'ifconfig eth1 0 up'
+ssh $h4 -t 'ifconfig eth1 0 up'
+ssh $h5 -t 'ifconfig eth1 0 up'
+ssh $h6 -t 'ifconfig eth1 0 up'
+ssh $h7 -t 'ifconfig eth1 0 up'
+ssh $h8 -t 'ifconfig eth1 0 up'
